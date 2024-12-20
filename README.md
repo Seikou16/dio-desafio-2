@@ -1,20 +1,19 @@
 
 
 
-# Desafio de Código #1 DIO - Classificador de Nível de Herói 
+# Desafio de Código #2 DIO - Classificador de Nível de Herói Ranked 
 
-Este código faz uma verificação do nível de um **herói** escolhido pelo usuário com base na quantidade de **EXP** (experiência), que também é definido pelo usuário.
+Este código faz uma verificação do nível de um **herói** rankeado com base na quantidade de vitórias e derrotas em partidas rankeadas, com base no cálculo: (vitórias - derrotas).
 
-Se XP for menor do que 1.000 = Ferro <br>
-Se XP for entre 1.001 e 2.000 = Bronze <br>
-Se XP for entre 2.001 e 5.000 = Prata <br>
-Se XP for entre 5.001 e 7.000 = Ouro <br>
-Se XP for entre 7.001 e 8.000 = Platina <br>
-Se XP for entre 8.001 e 9.000 = Ascendente <br>
-Se XP for entre 9.001 e 10.000= Imortal <br>
-Se XP for maior ou igual a 10.001 = Radiante <br>
+Se vitórias for menor do que 10 = Ferro <br>
+Se vitórias for entre 11 e 20 = Bronze <br>
+Se vitórias for entre 21 e 50 = Prata <br>
+Se vitórias for entre 51 e 80 = Ouro <br>
+Se vitórias for entre 81 e 90 = Diamante <br>
+Se vitórias for entre 91 e 100= Lendário <br>
+Se vitórias for maior ou igual a 101 = Imortal <br>
 
-## Requisitos para rodar o código: <br>
+## Requisitos para rodar o código: 
 
 - Um computador com um sistema operacional
 - Node (versão 22.12.0 ou acima)
@@ -27,7 +26,7 @@ Faça uma Fork desse repositório, logo após copie e cole esse código no seu t
 (troque "your-user" pelo seu nome de usuário)
 
 ```
- git clone  https://github.com/your-user/dio-project-desafio.git 
+ git clone  https://github.com/your-user/dio-desafio-2.git 
  ```
 ---
 
